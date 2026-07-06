@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Ajustement parfait des images dans le carrousel */
+.carousel-custom-img {
+    width: 100%;        /* Force l'image à prendre toute la largeur du bloc */
+    height: 100%;       /* Force l'image à prendre les 250px de hauteur du bloc parent */
+    object-fit: cover;  /* Remplit l'espace sans JAMAIS étirer ni déformer l'image */
+    object-position: center; /* Reste bien centrée sur le milieu de la photo */
+}
+
+.bg-secondary {
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 30px;
+}

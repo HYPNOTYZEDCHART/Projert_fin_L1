@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stage_Force - Détail</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Stage_Force</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+        <li class="nav-item"><a class="nav-link active" href="detail.html">Détail</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="py-5">
+  <div class="container">
+
+    <section id="informatique" class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 320px;">
+            <img src="img/stage_en_informatique.png" class="img-fluid" alt="Image stage informatique">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h1 class="mb-3">Stage en Informatique</h1>
+          <p><span class="badge bg-primary">Nouveau</span> <span class="badge bg-success">Disponible</span></p>
+          <p><strong>Entreprise :</strong> Tech Senegal</p>
+          <p><strong>Lieu :</strong> Dakar</p>
+          <p><strong>Durée :</strong> 3 mois</p>
+          <p><strong>Domaine :</strong> Développement web</p>
+          <p>
+            Ce stage permet à l’étudiant de découvrir le développement web dans un cadre professionnel.
+            Il participe à la création de pages simples, à la correction de petits détails visuels et à
+            l’apprentissage du travail en équipe.
+          </p>
+          <h5>Compétences demandées</h5>
+          <ul>
+            <li>HTML et CSS de base</li>
+            <li>Notions de Bootstrap</li>
+            <li>Motivation et sérieux</li>
+          </ul>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#postulerModal">Postuler</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="marketing" class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 320px;">
+            <img src="img/stage_marketing.png" class="img-fluid" alt="Image stage marketing">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Stage en Marketing</h2>
+          <p><span class="badge bg-warning text-dark">Promotion</span> <span class="badge bg-success">Disponible</span></p>
+          <p><strong>Entreprise :</strong> Media Dakar</p>
+          <p><strong>Lieu :</strong> Dakar</p>
+          <p><strong>Durée :</strong> 2 mois</p>
+          <p><strong>Domaine :</strong> Communication digitale</p>
+          <p>
+            Ce stage est destiné aux étudiants qui aiment la communication et les réseaux sociaux.
+            Le stagiaire aide à préparer des publications, suivre les campagnes de promotion et
+            participer à la visibilité de l’entreprise.
+          </p>
+          <h5>Compétences demandées</h5>
+          <ul>
+            <li>Bonne expression écrite</li>
+            <li>Créativité</li>
+            <li>Intérêt pour les réseaux sociaux</li>
+          </ul>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#postulerModal">Postuler</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="gestion" class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="bg-secondary text-white d-flex align-items-center justify-content-center" style="height: 320px;">
+            <img src="img/stage_gestion.png" class="img-fluid" alt="Image stage gestion">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="mb-3">Stage en Gestion</h2>
+          <p><span class="badge bg-info text-dark">Administration</span> <span class="badge bg-success">Disponible</span></p>
+          <p><strong>Entreprise :</strong> Bureau Plus</p>
+          <p><strong>Lieu :</strong> Dakar</p>
+          <p><strong>Durée :</strong> 3 mois</p>
+          <p><strong>Domaine :</strong> Gestion administrative</p>
+          <p>
+            Ce stage permet de découvrir le fonctionnement administratif d’une entreprise.
+            L’étudiant peut aider au classement des documents, au suivi des dossiers et à
+            l’organisation des tâches simples du bureau.
+          </p>
+          <h5>Compétences demandées</h5>
+          <ul>
+            <li>Organisation</li>
+            <li>Sens du travail</li>
+            <li>Discrétion et sérieux</li>
+          </ul>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#postulerModal">Postuler</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<div class="modal fade" id="postulerModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Postuler au stage</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p>Tu peux mettre ici un message de confirmation ou un lien vers le formulaire.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+        <a href="contact.html" class="btn btn-primary">Aller au formulaire</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+  <p class="mb-0">© 2026 Stage_Force</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

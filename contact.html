@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StagePlus - Contact</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">StagePlus</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="catalogue.html">Catalogue</a></li>
+        <li class="nav-item"><a class="nav-link" href="detail.html">Détail</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="py-5">
+  <div class="container">
+    <h1 class="text-center mb-4">Formulaire de candidature</h1>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nom complet</label>
+            <input type="text" class="form-control" placeholder="Ton nom">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Adresse email</label>
+            <input type="email" class="form-control" placeholder="Ton email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Niveau d'étude</label>
+            <select class="form-select">
+              <option>Licence 1</option>
+              <option>Licence 2</option>
+              <option>Licence 3</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Motivation</label>
+            <textarea class="form-control" rows="4" placeholder="Écris ton message"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="bg-dark text-white text-center p-3">
+  <p class="mb-0">© 2026 StagePlus</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
