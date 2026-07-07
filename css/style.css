@@ -32,14 +32,6 @@ img {
   border-radius: 10px;
 }
 
-/* Ajustement parfait des images dans le carrousel */
-.carousel-custom-img {
-    width: 100%;        /* Force l'image à prendre toute la largeur du bloc */
-    height: 100%;       /* Force l'image à prendre les 250px de hauteur du bloc parent */
-    object-fit: cover;  /* Remplit l'espace sans JAMAIS étirer ni déformer l'image */
-    object-position: center; /* Reste bien centrée sur le milieu de la photo */
-}
-
 .bg-secondary {
   border-radius: 10px;
 }
